@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lab-2" />
+    <meta name="keywords" content="table, position, transform" />
+    <title>Kreslavskyi M.O. IM-12</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+      table {
+        margin: 0 auto;
+        border-collapse: collapse;
+        border: 1px solid black;
+      }
+
+      td,
+      th {
+        height: 40px;
+        width: 160px;
+        border: 1px solid black;
+      }
+
+      .first_row {
+        background-color: #778f8f;
+        color: #050505;
+      }
+
+      .second_row {
+        background-color: #f5f577;
+        color: #69633b;
+      }
+
+      .first_row:hover {
+        background-color: #050505;
+        color: #778f8f;
+      }
+
+      .second_row:hover {
+        background-color: #69633b;
+        color: #f5f577;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr class="first_row">
+        <th colspan="2" rowspan="2">Креславський</th>
+        <th>Михайло</th>
+        <th>Олегович</th>
+      </tr>
+      <tr class="second_row">
+        <td>ІМ-12</td>
+        <td>Лаб. 2 Варіант 7</td>
+      </tr>
+      <tr>
+        <td colspan="2"></td>
+        <td></td>
+        <td rowspan="2"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <div class="container_clock_1">
+      <div class="hour_point_1 top_point_1"></div>
+      <div class="hour_point_1 right_point_1"></div>
+      <div class="hour_point_1 bottom_point_1"></div>
+      <div class="hour_point_1 left_point_1"></div>
+      <div class="arrow_hour_1"></div>
+      <div class="arrow_minutes_1"></div>
+    </div>
+    <div class="container_clock_2">
+      <div class="hour_point_2 top_point_2"></div>
+      <div class="hour_point_2 right_point_2"></div>
+      <div class="hour_point_2 bottom_point_2"></div>
+      <div class="hour_point_2 left_point_2"></div>
+      <div class="arrow_hour_2"></div>
+      <div class="arrow_minutes_2"></div>
+    </div>
+  </body>
+</html>

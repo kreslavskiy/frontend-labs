@@ -1,0 +1,95 @@
+.container_clock_1 {
+  position: relative;
+  margin: 15px 15px;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+.hour_point_1 {
+  position: absolute;
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: red;
+}
+
+.top_point_1 {
+  top: 5%;
+  left: calc((100% - 17px) / 2);
+}
+.right_point_1 {
+  top: calc((100% - 17px) / 2);
+  right: 5%;
+}
+.bottom_point_1 {
+  bottom: 5%;
+  left: calc((100% - 17px) / 2);
+}
+.left_point_1 {
+  top: calc((100% - 17px) / 2);
+  left: 5%;
+}
+.arrow_hour_1 {
+  position: absolute;
+  width: 40%;
+  height: 4px;
+  top: calc((100% - 4px) / 2);
+  right: 16.25%;
+  background-color: black;
+}
+.arrow_minutes_1 {
+  position: absolute;
+  width: 4px;
+  height: 50%;
+  top: 8.75%;
+  left: calc((100% - 4px) / 2);
+  background-color: black;
+}
+
+.container_clock_2 {
+  position: relative;
+  margin: 15px 15px;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+.hour_point_2 {
+  position: absolute;
+  border: 1px solid black;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: red;
+}
+
+.top_point_2 {
+  transform: translate(91.5px, 10px);
+}
+.right_point_2 {
+  transform: translate(175px, 91.5px);
+}
+.bottom_point_2 {
+  transform: translate(91.5px, 175px);
+}
+.left_point_2 {
+  transform: translate(10px, 91.5px);
+}
+.arrow_hour_2 {
+  width: 40%;
+  height: 4px;
+  top: calc((100% - 4px) / 2);
+  right: 16.25%;
+  background-color: black;
+  transform: translate(87.5px, 98px);
+}
+.arrow_minutes_2 {
+  width: 4px;
+  height: 50%;
+  top: 8.75%;
+  left: calc((100% - 4px) / 2);
+  background-color: black;
+  transform: translate(98px, 14px);
+}
