@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LAB 5</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="registration">
+      <form class="form">
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="ПІБ"
+          class="input"
+          required
+        />
+
+        <input
+          type="text"
+          id="variant"
+          name="group"
+          placeholder="Варіант"
+          class="input"
+          required
+        />
+
+        <input
+          type="text"
+          id="phone-number"
+          name="phone-number"
+          placeholder="Номер телефону"
+          class="input"
+          required
+        />
+
+        <input
+          type="text"
+          id="faculty"
+          name="faculty"
+          placeholder="Факультет"
+          class="input"
+          required
+        />
+
+        <input
+          type="text"
+          id="address"
+          name="address"
+          placeholder="Адреса"
+          class="input"
+          required
+        />
+
+        <button type="submit" class="submit-button">Підтвердити</button>
+      </form>
+    </div>
+
+    <div class="flex_container">
+      <input
+        type="color"
+        id="color-select"
+        name="color-select"
+        value="#21FB32"
+        class="color-select"
+      />
+      <table>
+        <thead>
+          <tr>
+            <th>N</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+  </body>
+</html>
